@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #111;
+    color: #eee;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: #1c1c1c;
+    padding: 15px 0;
+}
+
+#nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-list li {
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+#nav-list li:hover {
+    color: #00d4ff;
+}
+
+.section {
+    padding: 100px 15%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #00d4ff;
+}
+
+.project-card {
+    background: #1a1a1a;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-title {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.project-tech {
+    margin-top: 10px;
+}
+
+.tech-item {
+    background: #222;
+    padding: 5px 10px;
+    margin-right: 8px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    display: inline-block;
+}
