@@ -3,6 +3,7 @@ const form = document.getElementById("registrationForm");
 form.addEventListener("submit", function(event) {
 
     event.preventDefault(); // Prevent form submission initially
+    alert("Submiting From ");
 
     // Get values
     const name = document.getElementById("name").value.trim();
